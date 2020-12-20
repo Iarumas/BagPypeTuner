@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 /src/KivyTutApp/
 /src/RealTimeMicroApp/
+/src/Python Pipe Tuner/
+/src/PythonGuiExamples/

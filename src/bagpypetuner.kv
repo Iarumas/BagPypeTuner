@@ -1,0 +1,20 @@
+<StartScreen>:
+    name: '_startscreen_'
+    GridLayout:
+        cols: 1
+        size: root.width-200, root.height-200
+        pos: 100,100
+
+        Label:
+            id: startscreen
+            text: "Willkommen beim BagPypeTuner"
+
+        GridLayout:
+            cols:2
+
+            Label:
+                text: "Blablubb"
+
+            Button:
+                text:"Start Tuning"
+                on_press: root.btn()
