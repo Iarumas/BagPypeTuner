@@ -1,9 +1,11 @@
+#:import MeshLinePlot kivy.garden.graph.MeshLinePlot
+
 <StartScreen>:
     name: '_startscreen_'
     GridLayout:
         cols: 1
-        size: root.width-200, root.height-200
-        pos: 100,100
+        size: root.width-4, root.height-4
+        pos: 2,2
 
         Label:
             id: startscreen
@@ -17,4 +19,85 @@
 
             Button:
                 text:"Start Tuning"
-                on_press: root.btn()
+
+<TunerLineLabel@Label>:
+    width: 40
+    size_hint_x: None
+
+<TunerLineGraph@Graph>:
+    plot: MeshLinePlot
+    ymin: -1
+    ymax: 1
+
+<TuneScreen>:
+    name: '_tunescreen_'
+    GridLayout:
+        cols: 2
+        size: root.width-4, root.height-4
+        pos: 2,2
+
+        TunerLineLabel:
+            text: "High A"
+
+        TunerLineGraph:
+            id: graphHighA
+
+        TunerLineLabel:
+            text: "High G"
+
+        TunerLineGraph:
+            id: graphHighG
+
+        TunerLineLabel:
+            text: "F"
+
+        TunerLineGraph:
+            id: graphF
+
+        TunerLineLabel:
+            text: "E"
+
+        TunerLineGraph:
+            id: graphE
+
+        TunerLineLabel:
+            text: "D"
+
+        TunerLineGraph:
+            id: graphD
+
+        TunerLineLabel:
+            text: "C"
+
+        TunerLineGraph:
+            id: graphC
+
+        TunerLineLabel:
+            text: "B"
+
+        TunerLineGraph:
+            id: graphB
+
+        TunerLineLabel:
+            text: "A"
+
+        TunerLineGraph:
+            id: graphA
+
+        TunerLineLabel:
+            text: "G"
+
+        TunerLineGraph:
+            id: graphG
+
+        TunerLineLabel:
+            text: "Bass"
+
+        TunerLineGraph:
+            id: graphBass
+
+        TunerLineLabel:
+            text: "Tenor"
+
+        TunerLineGraph:
+            id: graphTenor

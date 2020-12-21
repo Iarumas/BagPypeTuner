@@ -1,0 +1,11 @@
+Acrotech Level Meter
+AudioControl ActiveX Control module
+AudioControls2 ActiveX Control module
+Microsoft Common Dialog Control 6.0(SP3)
+Microsoft Multimedia Control 6.0(SP3)
+Microsoft Tabbed Dialog Control 6.0(SP5)
+Microsoft Windows Common Controls 5.0(SP2)
+Microsoft Windows Common Controls 6.0(SP6)
+Microsoft Windows Common Controls-2 5.0(SP2)
+Microsoft Windows Common Controls-2 6.0(SP4)
+Microsoft Windows Common Controls-3 6.0(SP3)

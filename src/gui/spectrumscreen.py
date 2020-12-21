@@ -1,6 +1,5 @@
 from kivy.uix.screenmanager import Screen
 
-class StartScreen(Screen):
+
+class SpectrumScreen(Screen):
     pass
-
-

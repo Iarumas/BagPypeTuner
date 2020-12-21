@@ -1,0 +1,8 @@
+Visual Basic For Applications
+Visual Basic runtime objects and procedures
+Visual Basic objects and procedures
+OLE Automation
+Microsoft DAO 3.6 Object Library
+DirectX 8 for Visual Basic Type Library
+Microsoft Scripting Runtime
+Microsoft Add-In Designer

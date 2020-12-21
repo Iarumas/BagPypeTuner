@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Acrotech Level Meter Control</title>
+</head>
+<body bgcolor="#CCFFFF" text="#000033">
+<center>
+<h2><u>Acrotech Level Meter Control</u></H2>Version 1.4<br><br><br></center>
+The Acrotech Level Meter Control can be used to display the level of any realtime data such as a audio stream level or it can be used as progress bar. It is lightweight and has a fast response time. Colors can be set for high, mid and low levels. A peak indicator is also displayed. The control does not have any dependancies except that it uses the standard VB Timer control.
+<br><br>The following table gives a description of all non-standard properties of the Level Meter Control listed in alphabetical order.
+<br><br><br><center>
+<table width="80%" rules="all">
+<tr><td align="center" width="20%"><b>Property</b></td><td align="center" width="20%"><b>Type</b></td><td align="center"><b>Description</b></td></tr>
+<tr><td>Border</td><td>Boolean</td><td>Returns or sets whether a 3D border to drawn around the level meter.</td></tr>
+<tr><td>Gradient</td><td>Boolean</td><td>Returns or sets if the color changes between levels are smooth.</td></tr>
+<tr><td>HiColor</td><td>Long (Color)</td><td>Returns or sets the color to be used when the level value exceeds the HiLevel property.</td></tr>
+<tr><td>HiLevel</td><td>Integer</td><td>Returns or sets the level value beyond which the control will draw the level using the HiColor property.</td></tr>
+<tr><td>Horizontal</td><td>Boolean</td><td>Returns or sets if the level is displayed horizontally.</td></tr>
+<tr><td>Level</td><td>Integer</td><td>Returns or sets the current level to be displayed. This is the default property. Must be set between 0 to MaxLevel inclusive.</td></tr>
+<tr><td>LowColor</td><td>Long (Color)</td><td>Returns or sets the color to be used when the level value is below the MidLevel property.</td></tr>
+<tr><td>MaxLevel</td><td>Integer</td><td>Returns or sets the maximum level that the level meter displays. The minimum level possible is always 0.</td></tr>
+<tr><td>MidColor</td><td>Long (Color)</td><td>Returns or sets the color to be used when the level value is above the MidLevel property but below the HiLevel property.</td></tr>
+<tr><td>MidLevel</td><td>Integer</td><td>Returns or sets the level value beyond which the control will draw the level using the MidColor property.</td></tr>
+<tr><td>PeakDelay</td><td>Integer</td><td>Returns or sets the delay before which the peak indicator starts falling.</td></tr>
+<tr><td>Reverse</td><td>Boolean</td><td>Returns or sets if the level meter is reversed.</td></tr>
+<tr><td>ShowPeak</td><td>Boolean</td><td>Returns or sets if the peak indicator should be drawn.</td></tr>
+<tr><td>Solid</td><td>Boolean</td><td>Returns or sets if the control is drawn using a solid color instead of lines.</td></tr>
+</table>
+<br><br><hr><font size="1">&copy; Acrotech Solutions, 2004-2007</font>
+</center>
+</body>
+</html>
