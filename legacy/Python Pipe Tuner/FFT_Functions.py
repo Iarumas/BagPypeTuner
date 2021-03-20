@@ -4,7 +4,7 @@ from detect_peak import detect_peaks
 import matplotlib.pyplot as plt
 
 
-def WindowFunction(DataLength=16,GaussOrder=8):
+def windowFunction(DataLength=16,GaussOrder=8):
     """returns window function for FFT"""
     # GaussOrder = DataLength / Sigma  -> Sigma = Datalength / GaussOrder     
     return np.exp(-1/2*(np.arange(-DataLength/2,DataLength/2))**2/(DataLength/GaussOrder)**2)

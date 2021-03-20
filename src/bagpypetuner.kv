@@ -1,4 +1,13 @@
 #:import MeshLinePlot kivy.garden.graph.MeshLinePlot
+#:import WindowManager gui
+#:import StartScreen gui
+#:import SpectrumScreen gui
+#:import TuneScreen gui
+
+WindowManager:
+    TuneScreen:
+    StartScreen:
+    SpectrumScreen:
 
 <StartScreen>:
     name: '_startscreen_'
@@ -20,7 +29,7 @@
             Button:
                 text:"Start Tuning"
 
-<TunerLineLabel@Label>:
+<TunerLineImage@Image>:
     width: 40
     size_hint_x: None
 
@@ -36,68 +45,68 @@
         size: root.width-4, root.height-4
         pos: 2,2
 
-        TunerLineLabel:
-            text: "High A"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/Scottish/32x32/10_HA.bmp'
 
         TunerLineGraph:
             id: graphHighA
 
-        TunerLineLabel:
-            text: "High G"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/Scottish/32x32/9_HG.bmp'
 
         TunerLineGraph:
             id: graphHighG
 
-        TunerLineLabel:
-            text: "F"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/Scottish/32x32/8_Fnatural.bmp'
 
         TunerLineGraph:
             id: graphF
 
-        TunerLineLabel:
-            text: "E"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/Scottish/32x32/7_E.bmp'
 
         TunerLineGraph:
             id: graphE
 
-        TunerLineLabel:
-            text: "D"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/Scottish/32x32/6_D.bmp'
 
         TunerLineGraph:
             id: graphD
 
-        TunerLineLabel:
-            text: "C"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/Scottish/32x32/4_Cnatural.bmp'
 
         TunerLineGraph:
             id: graphC
 
-        TunerLineLabel:
-            text: "B"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/Scottish/32x32/3_B.bmp'
 
         TunerLineGraph:
             id: graphB
 
-        TunerLineLabel:
-            text: "A"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/Scottish/32x32/2_LA.bmp'
 
         TunerLineGraph:
             id: graphA
 
-        TunerLineLabel:
-            text: "G"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/Scottish/32x32/1_LG.bmp'
 
         TunerLineGraph:
             id: graphG
 
-        TunerLineLabel:
-            text: "Bass"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/32x32/1_Bass.bmp'
 
         TunerLineGraph:
             id: graphBass
 
-        TunerLineLabel:
-            text: "Tenor"
+        TunerLineImage:
+            source: '../legacy/PipeTuner/Bitmaps/32x32/2_Tenor.bmp'
 
         TunerLineGraph:
             id: graphTenor
